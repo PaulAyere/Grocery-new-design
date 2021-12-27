@@ -100,4 +100,67 @@
     padding: .8rem 1.5rem;
     color: var(--black);
     cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media{max-width: 1200px;}{
+    html{
+        font-size: 55%;
+        
+    }
+
+}
+
+@media{max-width: 991px;}{
+    html{
+        .header-1
+        .header-2{
+            padding: 2rem;
+        }
+        
+    }
+
 }
