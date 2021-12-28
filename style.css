@@ -146,7 +146,7 @@
 
 
 
-@media{max-width: 1200px;}{
+@media(max-width: 1200px){
     html{
         font-size: 55%;
         
@@ -154,13 +154,32 @@
 
 }
 
-@media{max-width: 991px;}{
-    html{
+@media(max-width: 991px){
         .header-1
         .header-2{
             padding: 2rem;
         }
         
-    }
+    
 
+}
+@media(max-width: 768px){
+    #menu-bar{
+        display: initial;
+
+    }
+    .header-2 .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: var(--black);
+        padding: 1rem;
+    }
+    .header-2 .navbar a{
+        font-size: 2.5rem;
+        display: block;
+        text-align: center;
+        background: #fff;
+        padding: 1rem;
+        margin: 1.5rem 0;
+    }
 }
