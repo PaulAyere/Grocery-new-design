@@ -35,6 +35,7 @@
      padding: .8rem 3rem;
      font-size: 1.7rem;
      text-align: center;
+     border-radius: 5rem;
      cursor: pointer;     
  }
  .btn:hover{
@@ -73,6 +74,7 @@
  .header-1 .search-box-container{
      display: flex;
      height: 5rem;
+     
  }
  .header-1 .search-box-container #search-box{
      height: 100%;
@@ -82,6 +84,8 @@
      color: #333;
      border: .1rem solid rgba(0,0,0,.3);
      text-transform: none;
+     border-top-left-radius: 1rem;
+     border-bottom-left-radius: 1rem;
  }
  .header-1 .search-box-container label{
      height: 100%;
@@ -92,6 +96,8 @@
      background: var(--green);
      text-align: center;
      cursor: pointer;
+     border-top-right-radius: 1rem;
+     border-bottom-right-radius: 1rem;
  }
  .header-1 .search-box-container label:hover{
      background: var(--black);
