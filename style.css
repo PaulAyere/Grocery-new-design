@@ -40,6 +40,19 @@
  .btn:hover{
     letter-spacing: .5rem;
   }
+  .heading{
+    text-align: center;
+    color:var(--black);
+    text-transform: uppercase;
+    padding:1rem;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+  }
+  
+  .heading span{
+    color:var(--green);
+    text-transform: uppercase;
+  }
   
  .header-1{
      background: #eee;
