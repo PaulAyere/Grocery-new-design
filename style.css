@@ -233,9 +233,15 @@ body{
         padding: 1rem;
         margin: 1.5rem 0;
     }
-    .header-2 .navbar a:hover{
-        color: var(--green);
+    .home .content{
+        text-align: center;
     }
+    .home .content h3{
+        font-size: 4rem;
+    }
+    /*.header-2 .navbar a:hover{
+        color: var(--green);
+    }*/
 }
 @media(max-width: 450px){
     html{
