@@ -107,7 +107,7 @@
     padding: .8rem 1.5rem;
     color: var(--black);
     cursor: pointer;
-    display: none;
+    display: ;
 }
 
 
@@ -163,15 +163,13 @@ body{
 
 }
 
-@media(max-width: 991px){
-        .header-1
-        .header-2{
-            padding: 2rem;
-        }
-        
-    
-
+@media(max-width:991px){
+    .header-1,
+    .header-2{
+        padding:2rem;
+    }
 }
+
 @media(max-width: 768px){
     #menu-bar{
         display: initial;
@@ -182,9 +180,9 @@ body{
         top: 100%; left: 0; right: 0;
         background: var(--black);
         padding: 1rem 2rem;
-        display: none;
+        display: ;
     }
-    .header-2 .navbar .active{
+    .header-2 .navbar.active{
         display: initial;
     }
     .header-2 .navbar a{
@@ -194,6 +192,9 @@ body{
         background: #fff;
         padding: 1rem;
         margin: 1.5rem 0;
+    }
+    .header-2 .navbar a:hover{
+        color: var(--green);
     }
 }
 @media(max-width: 450px){
