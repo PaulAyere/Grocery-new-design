@@ -66,6 +66,7 @@
  .header-1 .search-box-container label:hover{
      background: var(--black);
  }
+ 
  .header-2{
     background: #fff;
     display: flex;
@@ -75,6 +76,12 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     position: relative;
 }
+.header-2.active{
+    position: fixed;
+    top: 0; left: 0; right:0 ;
+    z-index: 10000;
+}
+
 .header-2 .navbar a{
     padding: .5rem 1.5rem;
     font-size: 2rem;
@@ -137,7 +144,9 @@
 
 
 
-
+body{
+    height: 200rem;
+}
 
 
 
@@ -175,7 +184,7 @@
         padding: 1rem 2rem;
         display: none;
     }
-    .header-2 .navbar.active{
+    .header-2 .navbar .active{
         display: initial;
     }
     .header-2 .navbar a{
